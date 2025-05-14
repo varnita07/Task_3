@@ -1,0 +1,15 @@
+ # Input
+n = 10
+
+num = 1
+row = 1
+
+# Loop to print triangle
+while num <= n:
+    for i in range(row):
+        if num > n:
+            break
+        print(num, end=' ')
+        num += 1
+    print()
+    row += 1

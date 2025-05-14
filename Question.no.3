@@ -1,0 +1,13 @@
+ # Input
+num = 1234
+
+# Initialize sum
+digit_sum = 0
+
+# Loop to extract and add digits
+while num > 0:
+    digit_sum += num % 10
+    num //= 10
+
+# Output
+print(digit_sum)

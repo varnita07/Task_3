@@ -1,0 +1,15 @@
+ # Input
+num1 = 4
+num2 = 6
+
+# Start from the greater of the two
+lcm = max(num1, num2)
+
+# Loop until we find a common multiple
+while True:
+    if lcm % num1 == 0 and lcm % num2 == 0:
+        break
+    lcm += 1
+
+# Output
+print(lcm)
